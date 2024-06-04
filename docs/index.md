@@ -38,7 +38,7 @@ features:
   - title: 工具类
     icon:
       src: /hoero-logo.svg
-    details: 一些工具de包/类/函数等等。
+    details: 一些工具包/类/函数等等。
   - title: 前沿技术
     icon:
       src: /hoero-logo.svg
