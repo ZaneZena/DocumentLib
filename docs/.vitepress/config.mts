@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  // base: '/vite-press-demo/',
+  base: '/BLOFG-VITEPRESS/',
   title: "清白之月",
   description: "你是否得到了期待的人生",
   themeConfig: {
