@@ -9,7 +9,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: './site.ico' }]
   ],
   themeConfig: {
-    logo: '/hoero-logo.svg',
+    logo: '/hero-logo.svg',
     siteTitle: '清白之月',
     outline: 'deep',
     search: {
@@ -46,6 +46,7 @@ export default defineConfig({
       },
       { text: '工具类', link: '/' },
       { text: '前沿技术', link: '/' },
+      { text: '随笔', link: '/' }
     ],
 
     sidebar: [
@@ -76,12 +77,17 @@ export default defineConfig({
         collapsed: false,
         items: []
       },
+      {
+        text: '随笔',
+        collapsed: false,
+        items: []
+      },
     ]
     ,
 
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2024-present gqk'
+      message: 'As they floated in the breeze',
+      copyright: 'Copyright © 2024-cheungchen'
     },
     socialLinks: [
       {
