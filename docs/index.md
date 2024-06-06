@@ -8,22 +8,22 @@ hero:
   tagline: 你得到你想要的么
   image:
     # src: /hoero-logo.svg
-    src: /home-img.jpg
+    src: avatar01.svg
   actions:
     - theme: brand
-      text: Vue3查询
+      text: Vue3 技术手册
       link: /frontend/vue3.md
     - theme: alt
-      text: 感悟人生
-      # link: /api-examples
+      text: 摸会儿鱼
+      link: https://www.zhihu.com/
     - theme: alt
-      text: 猎户星座
-      # link: /api-examples
+      text: 看看同行
+      link: https://juejin.cn/
     - theme: alt
-      text: 空帆船
-      # link: /api-examples
+      text: 看会儿书
+      link: https://weread.qq.com/
     - theme: alt
-      text: 且听风吟
+      text: 项目链接（待建设）
       # link: /api-examples
 
 features:
@@ -33,11 +33,11 @@ features:
     details: the front-end，js，vue，react等相关知识。
   - title: 服务端
     icon:
-      src: /frontend.svg
+      src: /server.svg
     details: nodejs，python，等服务端知识
   - title: 工具类
     icon:
-      src: /frontend.svg
+      src: /tools.svg
     details: 一些工具包/类/函数等等。
   - title: 前沿技术
     icon:
@@ -46,26 +46,26 @@ features:
   - title: 知识库
     icon:
       src: /known.svg
-    details: the front-end，js，vue，react等相关知识。
-    linkText: 开始学习
+    details: 生命是一团欲望，欲望不能满足便痛苦，满足便无聊，人生就在痛苦和无聊之间摇摆。
+    linkText: 开始阅读
     link: './'
-  - title: 服务端
+  - title: 项目配置
     icon:
-      src: /tech.svg
-    details: nodejs，python，等服务端知识
-    linkText: 开始学习
-    link: baidu.com
-  - title: 工具类
+      src: /config.svg
+    details: 一些项目中的常用配置
+    linkText: 开始查看
+    link: ./
+  - title: 项目展示 
     icon:
-      src: /frontend.svg
-    details: 一些工具包/类/函数等等。
-    linkText: 开始学习
-    link: baidu.com
-  - title: 前沿技术
+      src: /project.svg
+    details: 一些作品和DEMO的展示（待建设）。
+    linkText: 开始查看
+    link: ./
+  - title: 个人简历
     icon:
-      src: /frontend.svg
-    details: 包括区块链等前沿技术，拓展视野，拓展事业。
-    linkText: 开始学习
-    link: baidu.com
+      src: /resume.svg
+    details: 个人简历，实时更新。
+    linkText: 开始查看
+    link: ./
 ---
 

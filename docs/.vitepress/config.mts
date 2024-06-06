@@ -55,7 +55,9 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Vue 2.x', link: '/frontend/vue2.md' },
-          { text: 'Vue 3.x', link: '/frontend/vue3.md' },
+          { text: 'Vue 3.x', link: '/frontend/vue3.md' }, 
+          { text: 'Nodejs', link: '/frontend/nodejs.md' }, 
+
         ]
       },
       {
