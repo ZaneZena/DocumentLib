@@ -34,7 +34,9 @@ features:
   - title: 服务端
     icon:
       src: /server.svg
-    details: nodejs，python，等服务端知识
+    details: 负责处理服务器端逻辑，数据库管理和客户端与服务器之间通信的部分。
+    linkText: 开始查看
+    link: ./serverend/README.md
   - title: 工具类
     icon:
       src: /tools.svg

@@ -312,7 +312,6 @@ console.log(total);
 
   2. 存放字体
 
-     ![image](/Users/zhangzhen/Downloads/image.png)
 
   3. css文件夹 创建一个font.css文件，文件用于声明引入的字体，定义字体名称
 
@@ -333,11 +332,10 @@ console.log(total);
 
   4. main.js中引入font.css文件
 
-     ![](/Users/zhangzhen/Downloads/image.png)
+    
 
   5. 使用字体
 
-     ![](/Users/zhangzhen/Downloads/image (1).png)
 
      
 

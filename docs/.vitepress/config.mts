@@ -11,7 +11,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/hero-logo.svg',
     siteTitle: '清白之月',
-    outline: 'deep',
+    outline: [1,6],
     search: {
       provider: 'local'
     },
@@ -30,18 +30,27 @@ export default defineConfig({
         ]
       },
       {
-        text: '服务端', items: [{
-          text: 'Mongodb',
-          link: '/serverend/mongodb.md'
-        },
-        {
-          text: 'Mysql',
-          link: '/serverend/mysql.md'
-        },
-        {
-          text: 'Docker',
-          link: '/serverend/docker.md'
-        },
+        text: '服务端', items: [
+          {
+            text: 'Nodejs',
+            link: 'serverend/Nodejs/index.md',
+          },
+          {
+            text: 'Mongodb',
+            link: '/serverend/mongodb.md'
+          },
+          {
+            text:'云服务',
+            link: '/serverend/cloud-services/README.md',
+          },  
+          {
+            text: 'Mysql',
+            link: '/serverend/index.md'
+          },
+          {
+            text: 'Docker',
+            link: '/serverend/docker.md'
+          },
         ]
       },
       { text: '工具类', link: '/' },
@@ -55,8 +64,8 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Vue 2.x', link: '/frontend/vue2.md' },
-          { text: 'Vue 3.x', link: '/frontend/vue3.md' }, 
-          { text: 'Nodejs', link: '/frontend/nodejs.md' }, 
+          { text: 'Vue 3.x', link: '/frontend/vue3.md' },
+          { text: 'Nodejs', link: '/frontend/nodejs.md' },
 
         ]
       },
@@ -64,8 +73,11 @@ export default defineConfig({
         text: '服务端',
         collapsed: false,
         items: [
+          { text: 'README', link: '/serverend/README.md' },
+          { text: 'Nodejs', link: '/serverend/Nodejs/index.md' },
+          { text:'云服务',link:'/serverend/cloud-services/README.md'},
           { text: 'Mongodb', link: '/serverend/mongodb.md' },
-          { text: 'Mysql', link: '/serverend/mysql.md' },
+          { text: 'Mysql', link: '/serverend/index.md' },
           { text: 'Docker', link: '/serverend/docker.md' }
         ]
       },
