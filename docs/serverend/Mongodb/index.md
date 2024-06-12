@@ -1,8 +1,8 @@
-# Mongodb
+# Mongodb基础
 
-### 常用语句
+## 常用命令
 
-```mysql
+```
 1、显示数据库列表
 show dbs
 

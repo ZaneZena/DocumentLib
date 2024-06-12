@@ -1,5 +1,5 @@
 
-# #Mysql基础
+# 🌈Mysql基础
 
 [Mysql常用查询语句呀](./mysql.md)
 

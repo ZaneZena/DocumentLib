@@ -1,4 +1,5 @@
-# Vue 2.x
+# Vue 2
+
 
 ## 1.VUEX
 
