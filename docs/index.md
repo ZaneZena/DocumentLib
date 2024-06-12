@@ -12,12 +12,12 @@ hero:
   actions:
     - theme: brand
       text: Vue3 技术手册
-      link: /frontend/vue3.md
+      link: /frontend/Vue3/index.md
     - theme: alt
       text: 摸会儿鱼
       link: https://www.zhihu.com/
     - theme: alt
-      text: 看看同行
+      text: 看看帖子
       link: https://juejin.cn/
     - theme: alt
       text: 看会儿书
@@ -30,7 +30,7 @@ features:
   - title: 前端
     icon:
       src: /frontend.svg
-    details: the front-end，js，vue，react等相关知识。
+    details: 前端框架Vue，前端工程化，构建等相关知识。
     linkText: 开始查看
     link: /frontend/README.md
   - title: 服务端
@@ -44,7 +44,7 @@ features:
       src: /tools.svg
     details: 一些工具包/类/函数等等。
     linkText: 开始查看
-    link: /tools/Git/index.md
+    link: /tools/README.md
   - title: 前沿技术
     icon:
       src: /leading.svg

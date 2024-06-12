@@ -101,17 +101,19 @@ export default defineConfig({
       {
         text: '工具类',
         collapsed: false,
-        items: [{
-          text: 'Git',items:[{
-            text:'Git',
-            link: '/tools/Git/index.md',
-          },
-        {
-          text:'Git/Vim常用命令',
-          link: '/tools/Git/git-vim.md',
-        }]
-          
-        }]
+        items: [
+          { text: 'README', link: '/tools/README.md' },
+          {
+            text: 'Git', items: [{
+              text: 'Git',
+              link: '/tools/Git/index.md',
+            },
+            {
+              text: 'Git/Vim常用命令',
+              link: '/tools/Git/git-vim.md',
+            }]
+
+          }]
       },
       {
         text: '前沿技术',
