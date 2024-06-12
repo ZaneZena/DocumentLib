@@ -31,16 +31,20 @@ features:
     icon:
       src: /frontend.svg
     details: the front-end，js，vue，react等相关知识。
+    linkText: 开始查看
+    link: /frontend/README.md
   - title: 服务端
     icon:
       src: /server.svg
     details: 负责处理服务器端逻辑，数据库管理和客户端与服务器之间通信的部分。
     linkText: 开始查看
-    link: ./serverend/README.md
+    link: /serverend/README.md
   - title: 工具类
     icon:
       src: /tools.svg
     details: 一些工具包/类/函数等等。
+    linkText: 开始查看
+    link: /tools/Git/index.md
   - title: 前沿技术
     icon:
       src: /leading.svg
@@ -49,25 +53,25 @@ features:
     icon:
       src: /known.svg
     details: 生命是一团欲望，欲望不能满足便痛苦，满足便无聊，人生就在痛苦和无聊之间摇摆。
-    linkText: 开始阅读
+    # linkText: 开始阅读
     link: './'
   - title: 项目配置
     icon:
       src: /config.svg
     details: 一些项目中的常用配置
-    linkText: 开始查看
+    # linkText: 开始查看
     link: ./
   - title: 项目展示 
     icon:
       src: /project.svg
     details: 一些作品和DEMO的展示（待建设）。
-    linkText: 开始查看
+    # linkText: 开始查看
     link: ./
   - title: 个人简历
     icon:
       src: /resume.svg
     details: 个人简历，实时更新。
-    linkText: 开始查看
+    # linkText: 开始查看
     link: ./
 ---
 

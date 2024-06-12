@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  ignoreDeadLinks: true,
   base: '/DocumentSite/',
   title: "清白之月",
   description: "你是否得到了期待的人生",
@@ -11,7 +11,7 @@ export default defineConfig({
   themeConfig: {
     logo: '/hero-logo.svg',
     siteTitle: '清白之月',
-    outline: [1,6],
+    outline: [1, 6],
     search: {
       provider: 'local'
     },
@@ -21,11 +21,15 @@ export default defineConfig({
         text: '前端', items: [
           {
             text: 'VUE 2.x',
-            link: '/frontend/vue2.md'
+            link: '/frontend/Vue2/index.md'
           },
           {
             text: 'VUE 3.x',
-            link: '/frontend/vue3.md'
+            link: '/frontend/Vue3/index.md'
+          },
+          {
+            text: 'Typescript',
+            link: '/frontend/Typescript/index.md'
           },
         ]
       },
@@ -37,23 +41,28 @@ export default defineConfig({
           },
           {
             text: 'Mongodb',
-            link: '/serverend/mongodb.md'
+            link: '/serverend/Mongodb/index.md'
           },
           {
-            text:'云服务',
-            link: '/serverend/cloud-services/README.md',
-          },  
-          {
             text: 'Mysql',
-            link: '/serverend/index.md'
+            link: '/serverend/Mysql/index.md'
           },
           {
             text: 'Docker',
-            link: '/serverend/docker.md'
+            link: '/serverend/Docker/index.md'
+          },
+          {
+            text: '云服务',
+            link: '/serverend/cloud-services/README.md',
           },
         ]
       },
-      { text: '工具类', link: '/' },
+      {
+        text: '工具类', items: [{
+          text: 'Git',
+          link: '/tools/Git/index.md'
+        }]
+      },
       { text: '前沿技术', link: '/' },
       { text: '随笔', link: '/' }
     ],
@@ -63,9 +72,11 @@ export default defineConfig({
         text: '前端',
         collapsed: false,
         items: [
-          { text: 'Vue 2.x', link: '/frontend/vue2.md' },
-          { text: 'Vue 3.x', link: '/frontend/vue3.md' },
-          { text: 'Nodejs', link: '/frontend/nodejs.md' },
+          { text: 'README', link: '/frontend/README.md' },
+          { text: 'Vue 2.x', link: '/frontend/Vue2/index.md' },
+          { text: 'Vue 3.x', link: '/frontend/Vue3/index.md' },
+          { text: 'Typescript', link: '/frontend/Typescript/index.md' },
+
 
         ]
       },
@@ -75,16 +86,32 @@ export default defineConfig({
         items: [
           { text: 'README', link: '/serverend/README.md' },
           { text: 'Nodejs', link: '/serverend/Nodejs/index.md' },
-          { text:'云服务',link:'/serverend/cloud-services/README.md'},
-          { text: 'Mongodb', link: '/serverend/mongodb.md' },
-          { text: 'Mysql', link: '/serverend/index.md' },
-          { text: 'Docker', link: '/serverend/docker.md' }
+          {
+            text: 'Mysql', items: [{
+              text: 'Mysql', link: '/serverend/Mysql/index.md'
+            }, {
+              text: 'Mysql查询', link: '/serverend/Mysql/mysql.md'
+            }]
+          },
+          { text: 'Mongodb', link: '/serverend/Mongodb/index.md' },
+          { text: 'Docker', link: '/serverend/Docker/index.md' },
+          { text: '云服务', link: '/serverend/cloud-services/README.md' },
         ]
       },
       {
         text: '工具类',
         collapsed: false,
-        items: []
+        items: [{
+          text: 'Git',items:[{
+            text:'Git',
+            link: '/tools/Git/index.md',
+          },
+        {
+          text:'Git/Vim常用命令',
+          link: '/tools/Git/git-vim.md',
+        }]
+          
+        }]
       },
       {
         text: '前沿技术',
@@ -115,3 +142,4 @@ export default defineConfig({
   appearance: true,
   cleanUrls: true,
 })
+
