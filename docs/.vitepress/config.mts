@@ -31,6 +31,10 @@ export default defineConfig({
             text: 'Typescript',
             link: '/frontend/Typescript/index.md'
           },
+          {
+            text: 'React',
+            link: '/frontend/React/index.md'
+          },
         ]
       },
       {
@@ -76,8 +80,7 @@ export default defineConfig({
           { text: 'Vue 2.x', link: '/frontend/Vue2/index.md' },
           { text: 'Vue 3.x', link: '/frontend/Vue3/index.md' },
           { text: 'Typescript', link: '/frontend/Typescript/index.md' },
-
-
+          { text: 'React', link: '/frontend/React/index.md' },
         ]
       },
       {
