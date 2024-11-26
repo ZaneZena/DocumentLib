@@ -133,7 +133,7 @@ export default defineConfig({
 
     footer: {
       message: 'As they floated in the breeze',
-      copyright: 'Copyright © 2024-cheungchen'
+      copyright: 'Copyright © 2024-zanezena'
     },
     socialLinks: [
       {
