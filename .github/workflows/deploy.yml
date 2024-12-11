@@ -24,6 +24,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # 不需要设置 GITHUB_TOKEN，默认有
+          # 不需要设置 GITHUB_TOKEN，默认有的
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: docs/.vitepress/dist
