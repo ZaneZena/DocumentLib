@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   ignoreDeadLinks: true,
-  base: './',
+  base: '.',
   title: "清白之月",
   description: "你是否得到了期待的人生",
   head: [
@@ -41,7 +41,7 @@ export default defineConfig({
         text: '服务端', items: [
           {
             text: 'Nodejs',
-            link: 'serverend/Nodejs/index.md',
+            link: '/serverend/Nodejs/index.md',
           },
           {
             text: 'Mongodb',
