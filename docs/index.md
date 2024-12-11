@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "清白之年"
-  text: 个人技术栈与知识库
+  text: 个人技术栈与知识文库
   tagline: 你得到你想要的么
   image:
     # src: /hoero-logo.svg
