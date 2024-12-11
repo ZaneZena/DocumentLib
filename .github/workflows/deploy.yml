@@ -1,0 +1,29 @@
+name: Deploy
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v2
+      - name: 安装node环境
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          # cache: yarn
+      - run: npm install --frozen-lockfile
+
+      - name: Build代码
+        run: npm run docs:build
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # 不需要设置 GITHUB_TOKEN，默认有
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: docs/.vitepress/dist
